@@ -1,8 +1,25 @@
 import Link from "next/link";
 
-export default function Login() {
+export default function Register() {
   return (
     <div className="w-full flex min-h-screen">
+      
+
+      {/* Right Section */}
+      <div className="w-2/4 bg-gradient-to-r from-[#224e3a] to-[#31694E]">
+        <div className="flex flex-col p-16 gap-8 text-white">
+          <h1 className="text-5xl">Revolutionize QA with Smarter Automation</h1>
+          <p className="text-xl">"StudyBuddy" has completely transformed how I study lorem ipsum lorem ipsuem dolor sit amet dolor dolor amet"</p>
+          <div className="flex gap-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmixgImUBkKOcVYWB9cmExu9B4X2lgp11nYQ&s  " alt="" className="w-14 h-14 border-2 border-white rounded-full"/>
+            <div className="flex flex-col">
+              <p className="text-lg">Wonyoung</p>
+              <p className="text-md">Senior Student at Harvard</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Left Section */}
       <div className="w-2/4 p-24 flex flex-col gap-2">
         <h1 className="text-4xl font-semibold">Welcome Back!</h1>    
@@ -37,25 +54,10 @@ export default function Login() {
         </button>
         </div>
         <div className="flex gap-4 justify-center">
-          <p>Don't have an account?</p>
-          <Link href="/" className="text-[#00512f] cursor-pointer hover:underline">Sign Up</Link>
+          <p>Already have an account?</p>
+          <Link href="/login" className="text-[#00512f] cursor-pointer hover:underline">Sign In</Link>
         </div>
         <Link href="/" className="text-blue-500 underline">Back to Home</Link>
-      </div>
-
-      {/* Right Section */}
-      <div className="w-2/4 bg-gradient-to-r from-[#224e3a] to-[#31694E]">
-        <div className="flex flex-col p-16 gap-8 text-white">
-          <h1 className="text-5xl">Revolutionize QA with Smarter Automation</h1>
-          <p className="text-xl">"StudyBuddy" has completely transformed how I study lorem ipsum lorem ipsuem dolor sit amet dolor dolor amet"</p>
-          <div className="flex gap-4">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmixgImUBkKOcVYWB9cmExu9B4X2lgp11nYQ&s  " alt="" className="w-14 h-14 border-2 border-white rounded-full"/>
-            <div className="flex flex-col">
-              <p className="text-lg">Wonyoung</p>
-              <p className="text-md">Senior Student at Harvard</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
