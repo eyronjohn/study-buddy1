@@ -7,7 +7,7 @@ export default function Signup() {
   return (
     <Bare>
       <div className="min-h-screen w-full flex">
-        <div className="w-2/4 bg-white flex flex-col gap-10 text-center">
+        <div className="w-2/4 bg-white flex flex-col text-center">
           {/* <Logo /> */}
           <div className="p-24 flex flex-col gap-4">
             <h1 className="text-4xl font-semibold text-center flex">Sign up</h1>
