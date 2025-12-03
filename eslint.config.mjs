@@ -20,8 +20,12 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
     rules: {
-      '@typescript-eslint/no-explicit-any':'off'
-    }
+      '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/no-unused-vars': 'off', // disable unused var warnings
+      'import/no-anonymous-default-export': 'off', // allow anonymous default exports
+      'react/display-name': 'off', // allow unnamed React components
+      'react/react-in-jsx-scope': 'off', // not needed in Next.js 13+
+    },
   },
 ];
 

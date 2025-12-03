@@ -140,7 +140,7 @@ export default function FormChat() {
                 //   <UserRound />
                 // </div>
                 <div className="h-10 w-10 ml-2 aspect-square rounded-full border overflow-hidden">
-                  <img
+                  <Image
                     src="https://www.svgrepo.com/show/384670/account-avatar-profile-user.svg"
                     alt="User avatar"
                     className="w-full h-full object-cover"
