@@ -8,8 +8,8 @@ export default function Register() {
       {/* Right Section */}
       <div className="w-2/4 bg-gradient-to-r from-[#224e3a] to-[#31694E]">
         <div className="flex flex-col p-16 gap-8 text-white">
-          <h1 className="text-5xl">Revolutionize QA with Smarter Automation</h1>
-          <p className="text-xl">"StudyBuddy" has completely transformed how I study lorem ipsum lorem ipsuem dolor sit amet dolor dolor amet"</p>
+          <h1 className="text-5xl">Lorem ipsum dolor sit amet, consectetur</h1>
+          <p className="text-xl">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis lorem elit. Aenean finibus nulla sit amet lacus elementum commodo. "</p>
           <div className="flex gap-4">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmixgImUBkKOcVYWB9cmExu9B4X2lgp11nYQ&s  " alt="" className="w-14 h-14 border-2 border-white rounded-full"/>
             <div className="flex flex-col">
@@ -22,8 +22,8 @@ export default function Register() {
 
       {/* Left Section */}
       <div className="w-2/4 p-24 flex flex-col gap-2">
-        <h1 className="text-4xl font-semibold">Welcome Back!</h1>    
-        <p className="text-xl">Sign in to access your dashboard and continue optimizing your study routine!</p>
+        <h1 className="text-4xl font-semibold">Create an Account</h1>    
+        <p className="text-xl">Register to exprience a lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis lorem elit.</p>
         
         <div className="flex flex-col">
           <label htmlFor="email">Email</label>

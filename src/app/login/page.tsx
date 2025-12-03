@@ -18,6 +18,7 @@ export default function Login() {
           <input type="password" name="" className="rounded-md border border-gray-400 px-6 py-2" />
         </div>
         <button className="w-full p-2 rounded-md bg-[#007E6E] text-white cursor-pointer">Sign In</button>
+
         <div className="w-full flex flex-col gap-2 mt-4">
           <button className="w-full p-2 font-semibold tracking-wide rounded-md border border-[#afafaf] flex items-center justify-center gap-2">
                   <img
@@ -38,7 +39,7 @@ export default function Login() {
         </div>
         <div className="flex gap-4 justify-center">
           <p>Don't have an account?</p>
-          <Link href="/" className="text-[#00512f] cursor-pointer hover:underline">Sign Up</Link>
+          <Link href="/register" className="text-[#00512f] cursor-pointer hover:underline">Sign Up</Link>
         </div>
         <Link href="/" className="text-blue-500 underline">Back to Home</Link>
       </div>
@@ -46,7 +47,7 @@ export default function Login() {
       {/* Right Section */}
       <div className="w-2/4 bg-gradient-to-r from-[#224e3a] to-[#31694E]">
         <div className="flex flex-col p-16 gap-8 text-white">
-          <h1 className="text-5xl">Revolutionize QA with Smarter Automation</h1>
+          <h1 className="text-5xl">Lorem ipsum dolor sit amet, consectetue.</h1>
           <p className="text-xl">"StudyBuddy" has completely transformed how I study lorem ipsum lorem ipsuem dolor sit amet dolor dolor amet"</p>
           <div className="flex gap-4">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmixgImUBkKOcVYWB9cmExu9B4X2lgp11nYQ&s  " alt="" className="w-14 h-14 border-2 border-white rounded-full"/>
