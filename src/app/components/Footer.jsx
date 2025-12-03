@@ -3,7 +3,7 @@ export default function Footer() {
         <div className="container mx-auto flex justify-center ">
             {/* Footer */}
             <div className="text-sm">
-                @Copyright StudyBuddy 2025
+                Gemini can make mistakes, so double-check it
             </div>
         </div>
     );
